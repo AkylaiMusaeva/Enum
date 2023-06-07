@@ -1,6 +1,6 @@
 package LmsTask;
 
-public enum Days {
+public enum Days{
     MONDAY("Дуйшөмбү куну жава окуйм"),
     TUESDAY("Шейшемби күнү англис тили сабагын окуйм"),
     WEDNESDAY("Жекшемби куну talking club болот"),
@@ -12,8 +12,10 @@ public enum Days {
     Days(String dayName) {
         this.dayName = dayName;
     }
+
     public String getDayName() {
         return dayName;
     }
+
 }
 
